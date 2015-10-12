@@ -1,0 +1,801 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25593C8B1BCB902E00232A84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25593C8A1BCB902E00232A84 /* AppDelegate.swift */; };
+		25593C8D1BCB902E00232A84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25593C8C1BCB902E00232A84 /* ViewController.swift */; };
+		25593C901BCB902F00232A84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25593C8E1BCB902F00232A84 /* Main.storyboard */; };
+		25593C921BCB902F00232A84 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25593C911BCB902F00232A84 /* Images.xcassets */; };
+		25593C951BCB902F00232A84 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25593C931BCB902F00232A84 /* LaunchScreen.xib */; };
+		25593CA11BCB902F00232A84 /* SwiftBeautyWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25593CA01BCB902F00232A84 /* SwiftBeautyWatchTests.swift */; };
+		25593CB41BCB9C5300232A84 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25593CB31BCB9C5300232A84 /* InterfaceController.swift */; };
+		25593CB61BCB9C5300232A84 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25593CB51BCB9C5300232A84 /* NotificationController.swift */; };
+		25593CB81BCB9C5300232A84 /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25593CB71BCB9C5300232A84 /* GlanceController.swift */; };
+		25593CBA1BCB9C5300232A84 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25593CB91BCB9C5300232A84 /* Images.xcassets */; };
+		25593CBE1BCB9C5300232A84 /* SwiftBeautyWatch WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 25593CBD1BCB9C5300232A84 /* SwiftBeautyWatch WatchKit App.app */; };
+		25593CC61BCB9C5300232A84 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25593CC41BCB9C5300232A84 /* Interface.storyboard */; };
+		25593CC81BCB9C5300232A84 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25593CC71BCB9C5300232A84 /* Images.xcassets */; };
+		25593CCB1BCB9C5300232A84 /* SwiftBeautyWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 25593CAE1BCB9C5300232A84 /* SwiftBeautyWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		25593CE91BCBB8D000232A84 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 25593CD51BCBB8D000232A84 /* LICENSE */; };
+		25593CEA1BCBB8D000232A84 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 25593CD61BCBB8D000232A84 /* README.md */; };
+		25593CEB1BCBB8D000232A84 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25593CD81BCBB8D000232A84 /* Alamofire.swift */; };
+		25593CEC1BCBB8D000232A84 /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25593CD91BCBB8D000232A84 /* Download.swift */; };
+		25593CED1BCBB8D000232A84 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25593CDA1BCBB8D000232A84 /* Error.swift */; };
+		25593CEE1BCBB8D000232A84 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25593CDB1BCBB8D000232A84 /* Manager.swift */; };
+		25593CEF1BCBB8D000232A84 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25593CDC1BCBB8D000232A84 /* MultipartFormData.swift */; };
+		25593CF01BCBB8D000232A84 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25593CDD1BCBB8D000232A84 /* ParameterEncoding.swift */; };
+		25593CF11BCBB8D000232A84 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25593CDE1BCBB8D000232A84 /* Request.swift */; };
+		25593CF21BCBB8D000232A84 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25593CDF1BCBB8D000232A84 /* Response.swift */; };
+		25593CF31BCBB8D000232A84 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25593CE01BCBB8D000232A84 /* ResponseSerialization.swift */; };
+		25593CF41BCBB8D000232A84 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25593CE11BCBB8D000232A84 /* Result.swift */; };
+		25593CF51BCBB8D000232A84 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25593CE21BCBB8D000232A84 /* ServerTrustPolicy.swift */; };
+		25593CF61BCBB8D000232A84 /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25593CE31BCBB8D000232A84 /* Stream.swift */; };
+		25593CF71BCBB8D000232A84 /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25593CE41BCBB8D000232A84 /* Upload.swift */; };
+		25593CF81BCBB8D000232A84 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25593CE51BCBB8D000232A84 /* Validation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25593C9B1BCB902F00232A84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25593C7D1BCB902E00232A84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25593C841BCB902E00232A84;
+			remoteInfo = SwiftBeautyWatch;
+		};
+		25593CBF1BCB9C5300232A84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25593C7D1BCB902E00232A84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25593CBC1BCB9C5300232A84;
+			remoteInfo = "SwiftBeautyWatch WatchKit App";
+		};
+		25593CC91BCB9C5300232A84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25593C7D1BCB902E00232A84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25593CAD1BCB9C5300232A84;
+			remoteInfo = "SwiftBeautyWatch WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		25593CD21BCB9C5300232A84 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				25593CCB1BCB9C5300232A84 /* SwiftBeautyWatch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		25593C851BCB902E00232A84 /* SwiftBeautyWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftBeautyWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25593C891BCB902E00232A84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25593C8A1BCB902E00232A84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		25593C8C1BCB902E00232A84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		25593C8F1BCB902F00232A84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		25593C911BCB902F00232A84 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		25593C941BCB902F00232A84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		25593C9A1BCB902F00232A84 /* SwiftBeautyWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftBeautyWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25593C9F1BCB902F00232A84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25593CA01BCB902F00232A84 /* SwiftBeautyWatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBeautyWatchTests.swift; sourceTree = "<group>"; };
+		25593CAE1BCB9C5300232A84 /* SwiftBeautyWatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SwiftBeautyWatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25593CB11BCB9C5300232A84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25593CB21BCB9C5300232A84 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		25593CB31BCB9C5300232A84 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		25593CB51BCB9C5300232A84 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		25593CB71BCB9C5300232A84 /* GlanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
+		25593CB91BCB9C5300232A84 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		25593CBD1BCB9C5300232A84 /* SwiftBeautyWatch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftBeautyWatch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25593CC31BCB9C5300232A84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25593CC51BCB9C5300232A84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		25593CC71BCB9C5300232A84 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		25593CD51BCBB8D000232A84 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		25593CD61BCBB8D000232A84 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		25593CD81BCBB8D000232A84 /* Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
+		25593CD91BCBB8D000232A84 /* Download.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Download.swift; sourceTree = "<group>"; };
+		25593CDA1BCBB8D000232A84 /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		25593CDB1BCBB8D000232A84 /* Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		25593CDC1BCBB8D000232A84 /* MultipartFormData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipartFormData.swift; sourceTree = "<group>"; };
+		25593CDD1BCBB8D000232A84 /* ParameterEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
+		25593CDE1BCBB8D000232A84 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		25593CDF1BCBB8D000232A84 /* Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		25593CE01BCBB8D000232A84 /* ResponseSerialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseSerialization.swift; sourceTree = "<group>"; };
+		25593CE11BCBB8D000232A84 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		25593CE21BCBB8D000232A84 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		25593CE31BCBB8D000232A84 /* Stream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stream.swift; sourceTree = "<group>"; };
+		25593CE41BCBB8D000232A84 /* Upload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Upload.swift; sourceTree = "<group>"; };
+		25593CE51BCBB8D000232A84 /* Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25593C821BCB902E00232A84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25593C971BCB902F00232A84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25593CAB1BCB9C5300232A84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25593C7C1BCB902E00232A84 = {
+			isa = PBXGroup;
+			children = (
+				25593CD31BCBB8D000232A84 /* Pods */,
+				25593C871BCB902E00232A84 /* SwiftBeautyWatch */,
+				25593C9D1BCB902F00232A84 /* SwiftBeautyWatchTests */,
+				25593CAF1BCB9C5300232A84 /* SwiftBeautyWatch WatchKit Extension */,
+				25593CC11BCB9C5300232A84 /* SwiftBeautyWatch WatchKit App */,
+				25593C861BCB902E00232A84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25593C861BCB902E00232A84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25593C851BCB902E00232A84 /* SwiftBeautyWatch.app */,
+				25593C9A1BCB902F00232A84 /* SwiftBeautyWatchTests.xctest */,
+				25593CAE1BCB9C5300232A84 /* SwiftBeautyWatch WatchKit Extension.appex */,
+				25593CBD1BCB9C5300232A84 /* SwiftBeautyWatch WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25593C871BCB902E00232A84 /* SwiftBeautyWatch */ = {
+			isa = PBXGroup;
+			children = (
+				25593C8A1BCB902E00232A84 /* AppDelegate.swift */,
+				25593C8C1BCB902E00232A84 /* ViewController.swift */,
+				25593C8E1BCB902F00232A84 /* Main.storyboard */,
+				25593C911BCB902F00232A84 /* Images.xcassets */,
+				25593C931BCB902F00232A84 /* LaunchScreen.xib */,
+				25593C881BCB902E00232A84 /* Supporting Files */,
+			);
+			path = SwiftBeautyWatch;
+			sourceTree = "<group>";
+		};
+		25593C881BCB902E00232A84 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25593C891BCB902E00232A84 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		25593C9D1BCB902F00232A84 /* SwiftBeautyWatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				25593CA01BCB902F00232A84 /* SwiftBeautyWatchTests.swift */,
+				25593C9E1BCB902F00232A84 /* Supporting Files */,
+			);
+			path = SwiftBeautyWatchTests;
+			sourceTree = "<group>";
+		};
+		25593C9E1BCB902F00232A84 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25593C9F1BCB902F00232A84 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		25593CAF1BCB9C5300232A84 /* SwiftBeautyWatch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				25593CB31BCB9C5300232A84 /* InterfaceController.swift */,
+				25593CB51BCB9C5300232A84 /* NotificationController.swift */,
+				25593CB71BCB9C5300232A84 /* GlanceController.swift */,
+				25593CB91BCB9C5300232A84 /* Images.xcassets */,
+				25593CB01BCB9C5300232A84 /* Supporting Files */,
+			);
+			path = "SwiftBeautyWatch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		25593CB01BCB9C5300232A84 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25593CB11BCB9C5300232A84 /* Info.plist */,
+				25593CB21BCB9C5300232A84 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		25593CC11BCB9C5300232A84 /* SwiftBeautyWatch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				25593CC41BCB9C5300232A84 /* Interface.storyboard */,
+				25593CC71BCB9C5300232A84 /* Images.xcassets */,
+				25593CC21BCB9C5300232A84 /* Supporting Files */,
+			);
+			path = "SwiftBeautyWatch WatchKit App";
+			sourceTree = "<group>";
+		};
+		25593CC21BCB9C5300232A84 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25593CC31BCB9C5300232A84 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		25593CD31BCBB8D000232A84 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				25593CD41BCBB8D000232A84 /* Alamofire */,
+				25593CE61BCBB8D000232A84 /* Headers */,
+				25593CE71BCBB8D000232A84 /* Local Podspecs */,
+				25593CE81BCBB8D000232A84 /* Target Support Files */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		25593CD41BCBB8D000232A84 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				25593CD51BCBB8D000232A84 /* LICENSE */,
+				25593CD61BCBB8D000232A84 /* README.md */,
+				25593CD71BCBB8D000232A84 /* Source */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		25593CD71BCBB8D000232A84 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				25593CD81BCBB8D000232A84 /* Alamofire.swift */,
+				25593CD91BCBB8D000232A84 /* Download.swift */,
+				25593CDA1BCBB8D000232A84 /* Error.swift */,
+				25593CDB1BCBB8D000232A84 /* Manager.swift */,
+				25593CDC1BCBB8D000232A84 /* MultipartFormData.swift */,
+				25593CDD1BCBB8D000232A84 /* ParameterEncoding.swift */,
+				25593CDE1BCBB8D000232A84 /* Request.swift */,
+				25593CDF1BCBB8D000232A84 /* Response.swift */,
+				25593CE01BCBB8D000232A84 /* ResponseSerialization.swift */,
+				25593CE11BCBB8D000232A84 /* Result.swift */,
+				25593CE21BCBB8D000232A84 /* ServerTrustPolicy.swift */,
+				25593CE31BCBB8D000232A84 /* Stream.swift */,
+				25593CE41BCBB8D000232A84 /* Upload.swift */,
+				25593CE51BCBB8D000232A84 /* Validation.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		25593CE61BCBB8D000232A84 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		25593CE71BCBB8D000232A84 /* Local Podspecs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Local Podspecs";
+			sourceTree = "<group>";
+		};
+		25593CE81BCBB8D000232A84 /* Target Support Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Target Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25593C841BCB902E00232A84 /* SwiftBeautyWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25593CA41BCB902F00232A84 /* Build configuration list for PBXNativeTarget "SwiftBeautyWatch" */;
+			buildPhases = (
+				25593C811BCB902E00232A84 /* Sources */,
+				25593C821BCB902E00232A84 /* Frameworks */,
+				25593C831BCB902E00232A84 /* Resources */,
+				25593CD21BCB9C5300232A84 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25593CCA1BCB9C5300232A84 /* PBXTargetDependency */,
+			);
+			name = SwiftBeautyWatch;
+			productName = SwiftBeautyWatch;
+			productReference = 25593C851BCB902E00232A84 /* SwiftBeautyWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		25593C991BCB902F00232A84 /* SwiftBeautyWatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25593CA71BCB902F00232A84 /* Build configuration list for PBXNativeTarget "SwiftBeautyWatchTests" */;
+			buildPhases = (
+				25593C961BCB902F00232A84 /* Sources */,
+				25593C971BCB902F00232A84 /* Frameworks */,
+				25593C981BCB902F00232A84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25593C9C1BCB902F00232A84 /* PBXTargetDependency */,
+			);
+			name = SwiftBeautyWatchTests;
+			productName = SwiftBeautyWatchTests;
+			productReference = 25593C9A1BCB902F00232A84 /* SwiftBeautyWatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		25593CAD1BCB9C5300232A84 /* SwiftBeautyWatch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25593CD11BCB9C5300232A84 /* Build configuration list for PBXNativeTarget "SwiftBeautyWatch WatchKit Extension" */;
+			buildPhases = (
+				25593CAA1BCB9C5300232A84 /* Sources */,
+				25593CAB1BCB9C5300232A84 /* Frameworks */,
+				25593CAC1BCB9C5300232A84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25593CC01BCB9C5300232A84 /* PBXTargetDependency */,
+			);
+			name = "SwiftBeautyWatch WatchKit Extension";
+			productName = "SwiftBeautyWatch WatchKit Extension";
+			productReference = 25593CAE1BCB9C5300232A84 /* SwiftBeautyWatch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		25593CBC1BCB9C5300232A84 /* SwiftBeautyWatch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25593CD01BCB9C5300232A84 /* Build configuration list for PBXNativeTarget "SwiftBeautyWatch WatchKit App" */;
+			buildPhases = (
+				25593CBB1BCB9C5300232A84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftBeautyWatch WatchKit App";
+			productName = "SwiftBeautyWatch WatchKit App";
+			productReference = 25593CBD1BCB9C5300232A84 /* SwiftBeautyWatch WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25593C7D1BCB902E00232A84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = jaki;
+				TargetAttributes = {
+					25593C841BCB902E00232A84 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					25593C991BCB902F00232A84 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 25593C841BCB902E00232A84;
+					};
+					25593CAD1BCB9C5300232A84 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					25593CBC1BCB9C5300232A84 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = 25593C801BCB902E00232A84 /* Build configuration list for PBXProject "SwiftBeautyWatch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25593C7C1BCB902E00232A84;
+			productRefGroup = 25593C861BCB902E00232A84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25593C841BCB902E00232A84 /* SwiftBeautyWatch */,
+				25593C991BCB902F00232A84 /* SwiftBeautyWatchTests */,
+				25593CAD1BCB9C5300232A84 /* SwiftBeautyWatch WatchKit Extension */,
+				25593CBC1BCB9C5300232A84 /* SwiftBeautyWatch WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25593C831BCB902E00232A84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25593C901BCB902F00232A84 /* Main.storyboard in Resources */,
+				25593C951BCB902F00232A84 /* LaunchScreen.xib in Resources */,
+				25593CE91BCBB8D000232A84 /* LICENSE in Resources */,
+				25593C921BCB902F00232A84 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25593C981BCB902F00232A84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25593CAC1BCB9C5300232A84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25593CBE1BCB9C5300232A84 /* SwiftBeautyWatch WatchKit App.app in Resources */,
+				25593CBA1BCB9C5300232A84 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25593CBB1BCB9C5300232A84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25593CC61BCB9C5300232A84 /* Interface.storyboard in Resources */,
+				25593CC81BCB9C5300232A84 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25593C811BCB902E00232A84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25593CF01BCBB8D000232A84 /* ParameterEncoding.swift in Sources */,
+				25593CF41BCBB8D000232A84 /* Result.swift in Sources */,
+				25593CEA1BCBB8D000232A84 /* README.md in Sources */,
+				25593C8D1BCB902E00232A84 /* ViewController.swift in Sources */,
+				25593CF61BCBB8D000232A84 /* Stream.swift in Sources */,
+				25593CEF1BCBB8D000232A84 /* MultipartFormData.swift in Sources */,
+				25593CF51BCBB8D000232A84 /* ServerTrustPolicy.swift in Sources */,
+				25593CEB1BCBB8D000232A84 /* Alamofire.swift in Sources */,
+				25593C8B1BCB902E00232A84 /* AppDelegate.swift in Sources */,
+				25593CF81BCBB8D000232A84 /* Validation.swift in Sources */,
+				25593CEE1BCBB8D000232A84 /* Manager.swift in Sources */,
+				25593CF31BCBB8D000232A84 /* ResponseSerialization.swift in Sources */,
+				25593CF21BCBB8D000232A84 /* Response.swift in Sources */,
+				25593CF71BCBB8D000232A84 /* Upload.swift in Sources */,
+				25593CF11BCBB8D000232A84 /* Request.swift in Sources */,
+				25593CED1BCBB8D000232A84 /* Error.swift in Sources */,
+				25593CEC1BCBB8D000232A84 /* Download.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25593C961BCB902F00232A84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25593CA11BCB902F00232A84 /* SwiftBeautyWatchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25593CAA1BCB9C5300232A84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25593CB61BCB9C5300232A84 /* NotificationController.swift in Sources */,
+				25593CB41BCB9C5300232A84 /* InterfaceController.swift in Sources */,
+				25593CB81BCB9C5300232A84 /* GlanceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25593C9C1BCB902F00232A84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25593C841BCB902E00232A84 /* SwiftBeautyWatch */;
+			targetProxy = 25593C9B1BCB902F00232A84 /* PBXContainerItemProxy */;
+		};
+		25593CC01BCB9C5300232A84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25593CBC1BCB9C5300232A84 /* SwiftBeautyWatch WatchKit App */;
+			targetProxy = 25593CBF1BCB9C5300232A84 /* PBXContainerItemProxy */;
+		};
+		25593CCA1BCB9C5300232A84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25593CAD1BCB9C5300232A84 /* SwiftBeautyWatch WatchKit Extension */;
+			targetProxy = 25593CC91BCB9C5300232A84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		25593C8E1BCB902F00232A84 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25593C8F1BCB902F00232A84 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		25593C931BCB902F00232A84 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25593C941BCB902F00232A84 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		25593CC41BCB9C5300232A84 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25593CC51BCB9C5300232A84 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25593CA21BCB902F00232A84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		25593CA31BCB902F00232A84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25593CA51BCB902F00232A84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwiftBeautyWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		25593CA61BCB902F00232A84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwiftBeautyWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		25593CA81BCB902F00232A84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftBeautyWatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftBeautyWatch.app/SwiftBeautyWatch";
+			};
+			name = Debug;
+		};
+		25593CA91BCB902F00232A84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftBeautyWatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftBeautyWatch.app/SwiftBeautyWatch";
+			};
+			name = Release;
+		};
+		25593CCC1BCB9C5300232A84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SwiftBeautyWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		25593CCD1BCB9C5300232A84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "SwiftBeautyWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		25593CCE1BCB9C5300232A84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = SwiftBeautyWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "SwiftBeautyWatch WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		25593CCF1BCB9C5300232A84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = SwiftBeautyWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "SwiftBeautyWatch WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25593C801BCB902E00232A84 /* Build configuration list for PBXProject "SwiftBeautyWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25593CA21BCB902F00232A84 /* Debug */,
+				25593CA31BCB902F00232A84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25593CA41BCB902F00232A84 /* Build configuration list for PBXNativeTarget "SwiftBeautyWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25593CA51BCB902F00232A84 /* Debug */,
+				25593CA61BCB902F00232A84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25593CA71BCB902F00232A84 /* Build configuration list for PBXNativeTarget "SwiftBeautyWatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25593CA81BCB902F00232A84 /* Debug */,
+				25593CA91BCB902F00232A84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25593CD01BCB9C5300232A84 /* Build configuration list for PBXNativeTarget "SwiftBeautyWatch WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25593CCE1BCB9C5300232A84 /* Debug */,
+				25593CCF1BCB9C5300232A84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25593CD11BCB9C5300232A84 /* Build configuration list for PBXNativeTarget "SwiftBeautyWatch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25593CCC1BCB9C5300232A84 /* Debug */,
+				25593CCD1BCB9C5300232A84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25593C7D1BCB902E00232A84 /* Project object */;
+}
